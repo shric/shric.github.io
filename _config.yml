@@ -1,0 +1,32 @@
+title: "www.implicit.net"
+author: "Chris Young"
+description: "Chris Young's homepage" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+
+email: "chris@implicit.net"
+twitter_username: "shric"
+github_username: "shric"
+linkedin_username: "shric"
+instagram_username: "shric"
+
+theme: "minima"
+
+rss: rss
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other
